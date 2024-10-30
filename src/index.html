@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindProject</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <nav class="p-10 flex items-center justify-between">
+      <div class="flex items-center space-x-10">
+        <div class="flex gap-1 items-center">
+          <img src="../images/icon.png" alt="" class="w-8 h-8" />
+          <h1 class="font-bold text-3xl md:text-lg">Landify</h1>
+        </div>
+        <div>
+          <ul class="hidden md:flex items-center gap-5 font-medium cursor-pointer">
+            <li class="hover:text-blue-600">Features</li>
+            <li class="hover:text-blue-600">Pricing</li>
+            <li class="hover:text-blue-600">Careers</li>
+            <li class="hover:text-blue-600">Help</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-5">
+          <img src="../images/googlePlay.png" alt="" class="object-contain hidden sm:block" />
+          <img src="../images/appSrore.png" alt="" class="object-contain hidden sm:block" />
+        </div>
+        <button class="text-gray-500 md:hidden" id="menu-toggle">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <section class="p-10 md:flex justify-between">
+      <div class="md:w-[40%] space-y-5 md:pt-32">
+        <div class="space-y-5">
+          <h1 class="font-bold text-2xl sm:text-4xl md:text-5xl">The easiest way to manage projects</h1>
+          <p class="text-slate-500">
+            From the small stuff to the big picture , organizes the work so teams know what to do, why is matters, and
+            how to get it now.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <button
+            class="px-5 sm:px-3 md:px-4 py-4 sm:py-2 md:py-3 bg-indigo-600 text-xs sm:text-base text-nowrap rounded-md text-indigo-200 hover:text-yellow-600 hover:bg-indigo-700"
+          >
+            Get started
+          </button>
+          <button
+            class="px-5 md:px-4 py-4 md:py-3 bg-transparent text-xs sm:text-base text-nowrap text-indigo-500 rounded-md flex items-center gap-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z"
+              />
+            </svg>
+
+            Watch video
+          </button>
+        </div>
+      </div>
+
+      <div class="pr-20 md:pr-24">
+        <img src="../images/phone.png" alt="" class="object-cover mt-20 md:mt-0" />
+      </div>
+    </section>
+
+    <section>
+      <div class="md:block hidden">
+        <img src="../images/Logo Clouds 01.png" alt="" class="object-cover" />
+      </div>
+    </section>
+
+    <section class="p-10 md:space-y-10">
+      <div class="text-center space-y-3 md:mt-10">
+        <h1 class="font-bold text-2xl md:text-4xl">Tailor-made features</h1>
+        <p class="md:w-[620px] mx-auto text-sm text-slate-500">
+          Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual
+          presentation.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 p-6">
+        <div class="flex flex-col items-center text-center space-y-3">
+          <img src="../images/Base feature icon (1).png" alt="" />
+          <h1 class="text-xl font-bold">Robust workflow</h1>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-3">
+          <img src="../images/Base feature icon.png" alt="" />
+          <h1 class="text-xl font-bold">Robust workflow</h1>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-3">
+          <img src="../images/Group.png" alt="" />
+          <h1 class="text-xl font-bold">Robust workflow</h1>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 p-6">
+        <div class="flex flex-col items-center text-center space-y-3">
+          <img src="../images/Base feature icon (1).png" alt="" />
+          <h1 class="text-xl font-bold">Robust workflow</h1>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-3">
+          <img src="../images/Base feature icon.png" alt="" />
+          <h1 class="text-xl font-bold">Robust workflow</h1>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center space-y-3">
+          <img src="../images/Group.png" alt="" />
+          <h1 class="text-xl font-bold">Robust workflow</h1>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-10 flex flex-col md:flex-row justify-between items-center gap-5 md:gap-0">
+      <div class="space-y-7 md:pl-10 lg:pl-28 text-center md:text-left">
+        <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl w-full sm:w-[95%] md:w-[85%] lg:w-[60%]">
+          Our 18 years of achievements
+        </h1>
+        <p class="text-sm">With our super powers we have reached this</p>
+      </div>
+
+      <div
+        class="flex flex-col md:flex-row space-x-0 md:space-x-10 lg:space-x-20 w-full md:w-[75%] lg:w-[50%] space-y-10 md:space-y-0"
+      >
+        <div class="space-y-10 w-full md:w-[50%]">
+          <div class="flex items-center gap-3">
+            <div>
+              <img src="../images/Base feature icon (1).png" alt="" class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12" />
+            </div>
+            <div>
+              <h1 class="font-bold text-base md:text-lg lg:text-xl">10,000+</h1>
+              <p class="ext-sm md:text-base text-slate-600">Downloads per day</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div>
+              <img src="../images/Base feature icon (1).png" alt="" class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12" />
+            </div>
+            <div>
+              <h1 class="font-bold text-base md:text-lg lg:text-xl">500+</h1>
+              <p class="text-sm md:text-base text-gray-600">Clients</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-10 w-full md:w-[50%]">
+          <div class="flex items-center gap-3">
+            <div>
+              <img src="../images/Base feature icon (1).png" alt="" class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12" />
+            </div>
+            <div>
+              <h1 class="font-bold text-base md:text-lg lg:text-xl">2 Million</h1>
+              <p class="text-sm md:text-base text-slate-600">Users</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div>
+              <img src="../images/Base feature icon (1).png" alt="" class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12" />
+            </div>
+            <div>
+              <h1 class="font-bold text-base md:text-lg lg:text-xl">140</h1>
+              <p class="text-sm md:text-base text-gray-600">Countries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#D5FAFC] p-10 lg:flex">
+      <div class="lg:w-[50%] lg:ml-80 ml-0 lg:mt-10">
+        <div class="space-y-1 lg:mb-10 mb-4">
+          <h1 class="lg:text-3xl text-2xl font-bold text-nowrap">Real Stories from Real</h1>
+          <h2 class="lg:text-3xl text-xl sm:text-2xl text-nowrap font-bold">Customers</h2>
+          <p class="lg:text-sm text-xs text-[#111827]">Get inspired by these stories.</p>
+        </div>
+
+        <div class="p-5 bg-white rounded-md space-y-5 inline-block lg:ml-14">
+          <img src="../images/Layer 2.png" alt="" class="object-contain w-16" />
+          <div class="">
+            <img src="../images/Quote mark.png" alt="" class="object-contain" />
+            <p class="text-xs pl-5 lg:w-[200px] md:w-[450px] text-[#111827]">
+              To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one
+              of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.
+            </p>
+          </div>
+          <div class="pl-5">
+            <h1 class="font-bold text-xs">Floyd Miles</h1>
+            <p class="text-xs text-[#6B7280]">Vice President, GoPro</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-[50%] lg:mr-80 mr-0 space-y-5 flex flex-col items-center lg:mt-24 mt-5">
+        <div class="p-5 bg-white rounded-md space-y-5">
+          <img src="../images/_Client logo.png" alt="" class="object-contain w-16" />
+          <div class="">
+            <img src="../images/Quote mark.png" alt="" class="object-contain" />
+            <p class="text-xs pl-5 lg:w-[280px] md:w-[350px] text-[#111827]">
+              I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and
+              highly intuitive, so anyone can use it.
+            </p>
+          </div>
+          <div class="pl-5">
+            <h1 class="font-bold text-xs">Jane Cooper</h1>
+            <p class="text-xs text-[#6B7280]">CEO, Airbnb</p>
+          </div>
+        </div>
+
+        <div class="p-5 bg-white rounded-md space-y-5 md:-ml-20">
+          <img src="../images/_Client logo (1).png" alt="" class="object-contain w-16" />
+          <div class="">
+            <img src="../images/Quote mark.png" alt="" class="object-contain" />
+            <p class="text-xs pl-5 lg:w-[200px] md:w-[350px] text-[#111827]">
+              Landify saved our time in designing my company page.
+            </p>
+          </div>
+          <div class="pl-5">
+            <h1 class="font-bold text-xs">Kristin Watson</h1>
+            <p class="text-xs text-[#6B7280]">Co-Founder, Strapi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col md:flex-row p-20 space-x-0 md:space-x-10 space-y-10 md:space-y-0">
+      <div class="w-full md:w-[50%] pl-0 md:pl-10 lg:pl-40">
+        <h1 class="text-base md:text-2xl lg:text-3xl font-bold">Easy integrations</h1>
+        <h2 class="text-base md:text-2xl lg:text-3xl font-bold">with 170+ tools</h2>
+        <p class="text-[#111827] text-xs w-[310px] md:w-[200px] pt-2">
+          Connect Landify with your favourite tools that you use daily and keep things on track.
+        </p>
+      </div>
+
+      <div>
+        <img src="../images/Logos.png" alt="" class="object-contain md:w-96" />
+      </div>
+    </section>
+
+    <section class="p-10 flex flex-col lg:flex-row bg-[#1DB5BE] h-[670px] md:h-[840px] lg:h-[500px]">
+      <div class="w-full lg:basis-5/12 p-5 lg:p-20">
+        <div class="lg:max-w-sm space-y-2">
+          <h1 class="font-bold text-xl md:text-2xl lg:text-3xl">Manage all projects from your mobile</h1>
+          <p class="text-xs text-[#111827] tracking-wide w-auto lg:w-96">
+            Download the app to manage your projects, keep track of the progress and complete tasks without
+            procastinating. Stay on track and complete on time!
+          </p>
+        </div>
+        <div class="pt-10 space-y-2">
+          <h3 class="text-sm font-medium">Get the App</h3>
+          <div class="flex items-center gap-5">
+            <img src="../images/googlePlay.png" alt="" class="object-contain w-[100px] h-[50px] md:w-auto md:h-auto" />
+            <img src="../images/appSrore.png" alt="" class="object-contain w-[100px] h-[50px] md:w-auto md:h-auto" />
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:basis-7/12 mt-5 lg:-mt-10">
+        <img src="../images/Image.png" alt="" class="h-auto lg:h-[500px]" />
+      </div>
+    </section>
+
+    <footer class="p-4 md:p-10 bg-black text-white flex flex-col md:flex-row md:justify-between h-auto md:h-[220px]">
+      <div class="space-y-3 md:p-7 text-xs md:text-sm">
+        <img src="../images/Logo.png" alt="" />
+        <div class="flex gap-3">
+          <p>Download Now</p>
+          <p>License</p>
+        </div>
+
+        <ul class="flex items-center gap-3 md:gap-4">
+          <li><a href="">About</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+
+        <div>
+          <p class="text-xs text-[#D1D5DB]">© 2021 Landify UI Kit. All rights reserved</p>
+        </div>
+      </div>
+
+      <div class="space-y-3 mt-3 md:mt-0 md:pr-20">
+        <p class="text-sm">Get the App</p>
+        <img src="../images/appSrore.png" alt="" />
+        <img src="../images/googlePlay.png" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
